@@ -1,0 +1,12 @@
+# Builds live in GitHub Releases, never in the git tree.
+*.apk
+*.aab
+*.apks
+*.zip
+*.keystore
+*.jks
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
