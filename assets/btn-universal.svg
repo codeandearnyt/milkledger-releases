@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="96" viewBox="0 0 440 96" fill="none" role="img" aria-label="Download MilkLedger user app">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="96" viewBox="0 0 440 96" fill="none" role="img" aria-label="Download MilkLedger for all phones">
   <defs>
     <linearGradient id="face" x1="0" y1="0" x2="440" y2="96" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#2f6df6"/>
@@ -33,6 +33,6 @@
     <path d="M43 69h30"/>
   </g>
 
-  <text x="100" y="44" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Download · User app</text>
-  <text x="100" y="69" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#d3e1ff">APK · Universal · Android 6.0+</text>
+  <text x="100" y="44" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Download · All phones</text>
+  <text x="100" y="69" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#d3e1ff">Universal APK · Android 6.0+</text>
 </svg>

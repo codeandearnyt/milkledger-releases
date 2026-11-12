@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="88" viewBox="0 0 300 88" fill="none" role="img" aria-label="Download MilkLedger x86_64 build">
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="300" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101d36"/>
+      <stop offset="1" stop-color="#0c1628"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="-1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1.2;1.5" dur="4.4s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-0.2;2.5" dur="4.4s" begin="1.4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect width="300" height="88" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="300" height="88" fill="url(#face)"/>
+    <rect width="300" height="88" fill="url(#shine)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="298.5" height="86.5" rx="19.25" stroke="#2a4a7f" stroke-width="1.5"/>
+
+  <circle cx="44" cy="44" r="20" fill="#1d3f7a" fill-opacity="0.55"/>
+  <g stroke="#a9c8ff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 33v15"/>
+    <path d="M37 41l7 7 7-7" fill="none"/>
+    <path d="M33 58h22"/>
+  </g>
+
+  <text x="78" y="41" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#ffffff">x86_64</text>
+  <text x="78" y="62" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8fa8cc">Emulator · BlueStacks</text>
+</svg>

@@ -17,38 +17,62 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
+    <td align="center">
       <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger.apk">
-        <img src="assets/btn-user.svg" width="440" alt="Download MilkLedger user app">
+        <img src="assets/btn-universal.svg" width="460" alt="Download MilkLedger for all phones">
       </a>
       <br>
-      <sub><b>User app</b> &nbsp;·&nbsp; 83.7 MB &nbsp;·&nbsp; for the dairy owner</sub>
+      <sub><b>Universal</b> &nbsp;·&nbsp; 83.7 MB &nbsp;·&nbsp; one file, every phone</sub>
     </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-Admin.apk">
-        <img src="assets/btn-admin.svg" width="440" alt="Download MilkLedger Admin app">
+  </tr>
+</table>
+
+<div align="center"><sub>Want a smaller download? Pick your chip instead ↓</sub></div>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-arm64-v8a.apk">
+        <img src="assets/btn-arm64.svg" width="300" alt="Download MilkLedger arm64-v8a">
       </a>
       <br>
-      <sub><b>Admin app</b> &nbsp;·&nbsp; 56.6 MB &nbsp;·&nbsp; for the operator</sub>
+      <sub><b>39.8 MB</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-armeabi-v7a.apk">
+        <img src="assets/btn-armv7.svg" width="300" alt="Download MilkLedger armeabi-v7a">
+      </a>
+      <br>
+      <sub><b>38.2 MB</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-x86_64.apk">
+        <img src="assets/btn-x86.svg" width="300" alt="Download MilkLedger x86_64">
+      </a>
+      <br>
+      <sub><b>41.3 MB</b></sub>
     </td>
   </tr>
 </table>
 
 <div align="center">
-<sub>The buttons above always point at the <b>newest</b> build — no version hunting.</sub>
+<sub>Every button points at the <b>newest</b> build — no version hunting.</sub>
 </div>
 
 <br>
 
-## Which file do I need?
+## Which one should I install?
 
-| You are… | Install | You get |
+| Your device | Install | Why |
 | :-- | :-- | :-- |
-| **The dairy owner** | `MilkLedger.apk` | Daily entries, rates, ledger, reports |
-| **The account operator** | `MilkLedger-Admin.apk` | Payments, users, plans, app config |
-| Just exploring | User app | Everything works; admin is optional |
+| **Not sure** | **Universal** | Contains all chips — cannot be the wrong choice |
+| Android phone from ~2017 or newer | `arm64-v8a` | Smaller file, most phones today |
+| Older or budget 32-bit phone | `armeabi-v7a` | For phones that still report `armeabi-v7a` |
+| Emulator / PC (BlueStacks, LDPlayer) | `x86_64` | Runs on Intel and AMD machines |
 
-Both are **universal APKs** — one file covers 32-bit and 64-bit phones. No Google Play account needed.
+> If the wrong build is installed, Android just says *“App not installed”* and nothing breaks. Grab the universal file and you are done.
 
 <br>
 
@@ -70,29 +94,26 @@ Both are **universal APKs** — one file covers 32-bit and 64-bit phones. No Goo
 <tr>
 <td width="50%" valign="top">
 
-**🥛 User app**
+**🥛 Daily work**
 
 - Morning and evening entries in two taps
-- Quick-pick litres, or any amount you type
+- Quick-pick litre chips, or type any amount
 - Rate per litre **or** per ½ litre
 - Rate history — past dates keep their own rate
 - Multiple sellers, one combined bill
 - Month calendar and day ledger
-- PDF report and WhatsApp summary
-- Optional Plus plan removes ads
 
 </td>
 <td width="50%" valign="top">
 
-**🛠️ Admin app**
+**📄 Money and reports**
 
-- Overview: users, active Plus, pending, revenue
-- Payment queue with proof viewer
-- Approve or reject in one tap
-- User detail: plan, expiry, device, ad control
-- Activity log of every action
-- App config, including the launch popup
-- Subscription plans and pricing
+- Month summary: litres, mornings, evenings, average
+- PDF report for one seller or all sellers
+- WhatsApp summary with the PDF attached
+- Optional Plus plan, paid by UPI
+- Ads-free experience
+- Light and dark themes, daily reminder
 
 </td>
 </tr>
@@ -105,7 +126,7 @@ Both are **universal APKs** — one file covers 32-bit and 64-bit phones. No Goo
 | | |
 | :-- | :-- |
 | **Android** | 6.0 Marshmallow (API 23) or newer |
-| **Storage** | ~90 MB free for the user app, ~60 MB for admin |
+| **Storage** | ~90 MB for the universal APK, ~45 MB for a split |
 | **Connection** | Needed for sign-in and sync; entries are kept on the phone |
 | **Play Store** | Not required |
 
@@ -122,13 +143,19 @@ The app is free to use. The optional <b>Plus</b> plan removes ads and is billed 
 <details>
 <summary><b>How is a payment verified?</b></summary>
 <br>
-You pay by UPI, attach the payment proof in the app, and the operator verifies it manually — usually within <b>4 hours</b>, and never more than a day.
+You pay by UPI, attach the payment proof in the app, and it is verified manually — usually within <b>4 hours</b>, and never more than a day.
 </details>
 
 <details>
 <summary><b>Why does Play Protect warn me?</b></summary>
 <br>
 Play Protect only recognises apps installed from the Play Store. Sideloaded APKs always show this warning. Choose <b>More details → Install anyway</b>.
+</details>
+
+<details>
+<summary><b>Which file do I need?</b></summary>
+<br>
+If you are unsure, take the <b>universal</b> APK. It contains every chip and installs on any Android phone.
 </details>
 
 <details>
@@ -147,10 +174,12 @@ Use Chrome, or open the direct link from the latest release page. Some in-app br
 
 ## Build details
 
-| File | Version | Size | SHA-256 |
-| :-- | :-- | --: | :-- |
-| `MilkLedger.apk` | 1.0.0 | 83.7 MB | `9FDB0736…3DB8EF2` |
-| `MilkLedger-Admin.apk` | 1.0.0 | 56.6 MB | `562C7F43…BDB9240` |
+| File | Size | SHA-256 |
+| :-- | --: | :-- |
+| `MilkLedger.apk` | 83.7 MB | `9FDB0736…3DB8EF2` |
+| `MilkLedger-arm64-v8a.apk` | 39.8 MB | `F8F16119…0DA9F2F9` |
+| `MilkLedger-armeabi-v7a.apk` | 38.2 MB | `EC10911C…0AC7157D` |
+| `MilkLedger-x86_64.apk` | 41.3 MB | `54731D8E…DC5E5FDC` |
 
 <details>
 <summary>Full checksums</summary>
@@ -159,8 +188,14 @@ Use Chrome, or open the direct link from the latest release page. Some in-app br
 MilkLedger.apk
 9FDB0736FFE779CB4470E691E00C256D43060C54A5BE8D97D49BA6D413DB8EF2
 
-MilkLedger-Admin.apk
-562C7F43664E0A9EE358873A0635E52F833F061623E4039A1E622C56EBDB9240
+MilkLedger-arm64-v8a.apk
+F8F1611980A4D3B6536C6BD1A84F07175082BFB19E7F5402AF5C4C410DA9F2F9
+
+MilkLedger-armeabi-v7a.apk
+EC10911C3B39C8FC99F04E78EE0920626FD57951FF08ECA8F7A062A70AC7157D
+
+MilkLedger-x86_64.apk
+54731D8E75751DBD155520B44FE3BE13766D22C21A8DDBD16B764CC5DC5E5FDC
 ```
 
 </details>
