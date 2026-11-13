@@ -90,7 +90,7 @@
 | 👤 **Per-seller rates** | Every seller has their own milk price — per litre or per ½ litre. |
 | 🧾 **Bill screen** | Build a bill at the saved seller rates or one manual price (₹50–₹200), with a live preview. |
 | 📥 **PDF Download + Share** | Generate a bill PDF, then save it straight to `Download/MilkLedger/` or send it through the Android share sheet. |
-| 📊 **Read-only Reports** | Issued bills and entry previews, plus a daily spend chart. Bills are frozen snapshots. |
+| 📊 **Read-only Reports** | Issued bills and entry previews, plus a daily spend chart — now opened from **More → Reports**. Bills are frozen snapshots. |
 | 🔁 **Repeat** | Repeat morning/evening entries in one tap. |
 | ⏰ **Reminders** | Daily milk reminder + monthly bill reminder (scheduled on-device). |
 | 🧩 **Home widget** | Shows this month's total, litres and entry count on your launcher. |
@@ -104,13 +104,21 @@
 
 ## 📸 Screenshots
 
-| Home | Add milk | Bill · Sellers |
+| Home | More | Reports |
 |---|---|---|
-| ![Home](assets/screens/home.png) | ![Add milk](assets/screens/add-milk.png) | ![Bill with saved seller rates](assets/screens/bill-sellers.png) |
+| ![Home with the four-tab bar](assets/screens/home.png) | ![More with Reports at the top](assets/screens/more.png) | ![Reports opened from More](assets/screens/reports.png) |
 
-| Bill · Manual | PDF ready | Sellers |
+| Add milk | Bill · Sellers | Bill · Manual |
 |---|---|---|
-| ![Manual pricing](assets/screens/bill-manual.png) | ![Download or share the PDF](assets/screens/pdf-ready.png) | ![Sellers](assets/screens/sellers.png) |
+| ![Add milk](assets/screens/add-milk.png) | ![Bill with saved seller rates](assets/screens/bill-sellers.png) | ![Manual pricing](assets/screens/bill-manual.png) |
+
+| PDF ready | Sellers |
+|---|---|
+| ![Download or share the PDF](assets/screens/pdf-ready.png) | ![Sellers](assets/screens/sellers.png) |
+
+> The top row is from **1.1.2**: the bar is `Home · Ledger | + | Bill · More`, and
+> Reports opens from **More → Reports** as a pushed screen. The other screens were
+> captured on **1.1.1**, where the bar still had a Reports tab.
 
 ---
 
