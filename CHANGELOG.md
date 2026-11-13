@@ -2,6 +2,33 @@
 
 Installable MilkLedger builds. Each entry links to the release that carries the APKs.
 
+## v1.1.2 — 14 November 2026
+
+Reports moves into More, and first-run setup now lands on Home.
+
+**Navigation**
+- Bottom bar is `Home · Ledger | + | Bill · More`, with the centre Add-milk button unchanged
+- **Reports** is no longer a tab — open it from **More → Reports**
+- Bill keeps its old slot, so nothing moves under your thumb
+
+**First run**
+- **Start** now saves the seller, phone number and today's rate, then goes straight to Home on the first tap
+- Before, it saved but left you on the setup form until you reopened the app
+- Start shows a spinner and *Setting up…*, then a check and *You're all set*
+
+**Speed**
+- The app asks Android for the fastest display mode the screen supports, so 90 Hz and 120 Hz phones run above 60 fps
+- Tab and screen transitions are unchanged and stay at 60 fps or better
+
+**Files in this release**
+
+| File | Size | For |
+| :-- | --: | :-- |
+| `MilkLedger-1.1.2.apk` | 83.8 MB | Any phone (universal) |
+| `MilkLedger-1.1.2-arm64-v8a.apk` | 39.8 MB | 64-bit phones |
+| `MilkLedger-1.1.2-armeabi-v7a.apk` | 38.3 MB | 32-bit phones |
+| `MilkLedger-1.1.2-x86_64.apk` | 41.4 MB | Emulators |
+
 ## v1.1.1 — 13 November 2026
 
 Bill PDFs can now be saved or shared.

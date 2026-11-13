@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1.apk">
+<a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.2/MilkLedger-1.1.2.apk">
   <img src="assets/btn-universal.svg" width="440" alt="Download MilkLedger for all phones">
 </a>
 
@@ -38,21 +38,21 @@
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1-arm64-v8a.apk">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.2/MilkLedger-1.1.2-arm64-v8a.apk">
         <img src="assets/btn-arm64.svg" width="300" alt="Download MilkLedger arm64-v8a">
       </a>
       <br>
       <sub><b>39.8 MB</b> · 64-bit phones</sub>
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1-armeabi-v7a.apk">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.2/MilkLedger-1.1.2-armeabi-v7a.apk">
         <img src="assets/btn-armv7.svg" width="300" alt="Download MilkLedger armeabi-v7a">
       </a>
       <br>
       <sub><b>38.3 MB</b> · 32-bit phones</sub>
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1-x86_64.apk">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.2/MilkLedger-1.1.2-x86_64.apk">
         <img src="assets/btn-x86.svg" width="300" alt="Download MilkLedger x86_64">
       </a>
       <br>
@@ -63,7 +63,7 @@
 
 <div align="center">
 
-<sub>Version <b>1.1.1</b> · <a href="https://github.com/codeandearnyt/milkledger-releases/releases">all releases</a> · <a href="https://github.com/codeandearnyt/milkledger-releases/releases/tag/v1.1.1">release notes</a></sub>
+<sub>Version <b>1.1.2</b> · <a href="https://github.com/codeandearnyt/milkledger-releases/releases">all releases</a> · <a href="https://github.com/codeandearnyt/milkledger-releases/releases/tag/v1.1.2">release notes</a></sub>
 
 </div>
 
