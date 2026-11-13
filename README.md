@@ -1,31 +1,35 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="MilkLedger — milk accounts, settled" width="100%">
-</div>
 
-<div align="center">
+<img src="assets/banner.svg" alt="MilkLedger banner" width="100%">
+
+# 🥛 MilkLedger
+
+**A smart, offline-first dairy ledger for Android** — track milk deliveries from every seller, build bills at saved or manual rates, and download or share them as PDF.
 
 [![Latest release](https://img.shields.io/github/v/release/codeandearnyt/milkledger-releases?style=for-the-badge&label=latest&color=2f6df6)](https://github.com/codeandearnyt/milkledger-releases/releases/latest)
 [![Total downloads](https://img.shields.io/github/downloads/codeandearnyt/milkledger-releases/total?style=for-the-badge&color=8b5cf6)](https://github.com/codeandearnyt/milkledger-releases/releases)
-[![Android](https://img.shields.io/badge/Android-6.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#requirements)
-[![APKs only](https://img.shields.io/badge/repo-APKs%20only-64748b?style=for-the-badge)](#)
+![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![APKs only](https://img.shields.io/badge/repo-APKs%20only-64748b?style=for-the-badge)
+
+**Made by [Nitin Sharma](https://github.com/codeandearnyt) — © 2026 MilkLedger**
+
+</div>
+
+---
+
+## ⬇️ Download
+
+<div align="center">
+
+<a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1.apk">
+  <img src="assets/btn-universal.svg" width="440" alt="Download MilkLedger for all phones">
+</a>
+
+<sub><b>Universal</b> &nbsp;·&nbsp; 83.8 MB &nbsp;·&nbsp; one file, every phone</sub>
 
 </div>
 
 <br>
-
-<h2 align="center">⬇️ Download</h2>
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger.apk">
-        <img src="assets/btn-universal.svg" width="460" alt="Download MilkLedger for all phones">
-      </a>
-      <br>
-      <sub><b>Universal</b> &nbsp;·&nbsp; 83.7 MB &nbsp;·&nbsp; one file, every phone</sub>
-    </td>
-  </tr>
-</table>
 
 <div align="center"><sub>Want a smaller download? Pick your chip instead ↓</sub></div>
 
@@ -34,36 +38,38 @@
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-arm64-v8a.apk">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1-arm64-v8a.apk">
         <img src="assets/btn-arm64.svg" width="300" alt="Download MilkLedger arm64-v8a">
       </a>
       <br>
-      <sub><b>39.8 MB</b></sub>
+      <sub><b>39.8 MB</b> · 64-bit phones</sub>
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-armeabi-v7a.apk">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1-armeabi-v7a.apk">
         <img src="assets/btn-armv7.svg" width="300" alt="Download MilkLedger armeabi-v7a">
       </a>
       <br>
-      <sub><b>38.2 MB</b></sub>
+      <sub><b>38.3 MB</b> · 32-bit phones</sub>
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/latest/download/MilkLedger-x86_64.apk">
+      <a href="https://github.com/codeandearnyt/milkledger-releases/releases/download/v1.1.1/MilkLedger-1.1.1-x86_64.apk">
         <img src="assets/btn-x86.svg" width="300" alt="Download MilkLedger x86_64">
       </a>
       <br>
-      <sub><b>41.3 MB</b></sub>
+      <sub><b>41.4 MB</b> · emulators</sub>
     </td>
   </tr>
 </table>
 
 <div align="center">
-<sub>Every button points at the <b>newest</b> build — no version hunting.</sub>
+
+<sub>Version <b>1.1.1</b> · <a href="https://github.com/codeandearnyt/milkledger-releases/releases">all releases</a> · <a href="https://github.com/codeandearnyt/milkledger-releases/releases/tag/v1.1.1">release notes</a></sub>
+
 </div>
 
 <br>
 
-## Which one should I install?
+### Which one should I install?
 
 | Your device | Install | Why |
 | :-- | :-- | :-- |
@@ -72,9 +78,65 @@
 | Older or budget 32-bit phone | `armeabi-v7a` | For phones that still report `armeabi-v7a` |
 | Emulator / PC (BlueStacks, LDPlayer) | `x86_64` | Runs on Intel and AMD machines |
 
-> If the wrong build is installed, Android just says *“App not installed”* and nothing breaks. Grab the universal file and you are done.
+> Install the new APK over the old one — your entries, sellers and settings stay.
 
-<br>
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| ⚡ **Quantity shortcuts** | Tap chips from `0.25 L` to `4.00 L`, or open the dropdown for `4.25 L` → `20 L`. |
+| 👤 **Per-seller rates** | Every seller has their own milk price — per litre or per ½ litre. |
+| 🧾 **Bill screen** | Build a bill at the saved seller rates or one manual price (₹50–₹200), with a live preview. |
+| 📥 **PDF Download + Share** | Generate a bill PDF, then save it straight to `Download/MilkLedger/` or send it through the Android share sheet. |
+| 📊 **Read-only Reports** | Issued bills and entry previews, plus a daily spend chart. Bills are frozen snapshots. |
+| 🔁 **Repeat** | Repeat morning/evening entries in one tap. |
+| ⏰ **Reminders** | Daily milk reminder + monthly bill reminder (scheduled on-device). |
+| 🧩 **Home widget** | Shows this month's total, litres and entry count on your launcher. |
+| 🔒 **App lock** | Fingerprint / face / phone-PIN protection. |
+| ☁️ **Cloud backup** | Sign in, back up and restore your ledger via Firebase (free tier). |
+| 🚫 **Manage Ads (Plus)** | Paid plan + admin-granted permission hides ads. |
+
+**Design choices:** local-first storage (sqflite) — the ledger works fully offline; the cloud layer is optional and auto-detects when configured.
+
+---
+
+## 📸 Screenshots
+
+| Home | Add milk | Bill · Sellers |
+|---|---|---|
+| ![Home](assets/screens/home.png) | ![Add milk](assets/screens/add-milk.png) | ![Bill with saved seller rates](assets/screens/bill-sellers.png) |
+
+| Bill · Manual | PDF ready | Sellers |
+|---|---|---|
+| ![Manual pricing](assets/screens/bill-manual.png) | ![Download or share the PDF](assets/screens/pdf-ready.png) | ![Sellers](assets/screens/sellers.png) |
+
+---
+
+## 🛠 Tech stack
+
+- **Flutter / Dart** — UI, state, platform channels
+- **Firebase Auth** — email/password sign-in
+- **Cloud Firestore** — users, payments, admin meta (free tier)
+- **sqlite3 / sqflite** — local ledger database
+- **AdMob** — banner + interstitial ads (test IDs while in dev)
+- **flutter_local_notifications** — reminders
+- **home_widget** — launcher widget
+- **PDF + share** — bill PDFs, Downloads save (MediaStore), and WhatsApp summaries
+
+---
+
+## 📱 Requirements
+
+| | |
+| :-- | :-- |
+| **Android** | 10 (API 29) or newer |
+| **Storage** | ~90 MB for the universal APK, ~45 MB for a split |
+| **Connection** | Optional — entries are kept on the phone; needed only for sign-in and cloud backup |
+| **Play Store** | Not required |
+
+---
 
 ## Install
 
@@ -86,51 +148,16 @@
 
 > Updating later? Install the new APK over the old one — your data stays.
 
-<br>
+---
 
-## What's inside
+## 🆕 What's new in 1.1.1
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- **Generate PDF** on a saved bill, then choose **Download** or **Share**.
+- **Download** saves the PDF straight to `Download/MilkLedger/` — no dialog and no storage permission on Android 10+.
+- **Share** opens the normal Android share sheet for WhatsApp, email or any other app.
+- Includes everything from 1.1.0: the Bill tab, Sellers and Manual pricing, read-only Reports, and sliding screen transitions.
 
-**🥛 Daily work**
-
-- Morning and evening entries in two taps
-- Quick-pick litre chips, or type any amount
-- Rate per litre **or** per ½ litre
-- Rate history — past dates keep their own rate
-- Multiple sellers, one combined bill
-- Month calendar and day ledger
-
-</td>
-<td width="50%" valign="top">
-
-**📄 Money and reports**
-
-- Month summary: litres, mornings, evenings, average
-- PDF report for one seller or all sellers
-- WhatsApp summary with the PDF attached
-- Optional Plus plan, paid by UPI
-- Ads-free experience
-- Light and dark themes, daily reminder
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Requirements
-
-| | |
-| :-- | :-- |
-| **Android** | 6.0 Marshmallow (API 23) or newer |
-| **Storage** | ~90 MB for the universal APK, ~45 MB for a split |
-| **Connection** | Needed for sign-in and sync; entries are kept on the phone |
-| **Play Store** | Not required |
-
-<br>
+---
 
 ## FAQ
 
@@ -155,7 +182,7 @@ Play Protect only recognises apps installed from the Play Store. Sideloaded APKs
 <details>
 <summary><b>Which file do I need?</b></summary>
 <br>
-If you are unsure, take the <b>universal</b> APK. It contains every chip and installs on any Android phone.
+If you are unsure, take the <b>universal</b> APK. It contains every chip and installs on any supported Android phone.
 </details>
 
 <details>
@@ -170,37 +197,37 @@ No. Installing a newer APK over the old one keeps all entries, sellers and setti
 Use Chrome, or open the direct link from the latest release page. Some in-app browsers block APK downloads.
 </details>
 
-<br>
+---
 
 ## Build details
 
 | File | Size | SHA-256 |
 | :-- | --: | :-- |
-| `MilkLedger.apk` | 83.7 MB | `9FDB0736…3DB8EF2` |
-| `MilkLedger-arm64-v8a.apk` | 39.8 MB | `F8F16119…0DA9F2F9` |
-| `MilkLedger-armeabi-v7a.apk` | 38.2 MB | `EC10911C…0AC7157D` |
-| `MilkLedger-x86_64.apk` | 41.3 MB | `54731D8E…DC5E5FDC` |
+| `MilkLedger-1.1.1.apk` | 83.8 MB | `84B2C1FA…C15D` |
+| `MilkLedger-1.1.1-arm64-v8a.apk` | 39.8 MB | `5A44DBEF…AFEA` |
+| `MilkLedger-1.1.1-armeabi-v7a.apk` | 38.3 MB | `8F2A2EEF…C82E` |
+| `MilkLedger-1.1.1-x86_64.apk` | 41.4 MB | `3FC8E7C8…75E3` |
 
 <details>
 <summary>Full checksums</summary>
 
 ```text
-MilkLedger.apk
-9FDB0736FFE779CB4470E691E00C256D43060C54A5BE8D97D49BA6D413DB8EF2
+MilkLedger-1.1.1.apk
+84B2C1FA8341336C5B0A4F97E725A806CED44D6E5C9D441AEF767A435F43C15D
 
-MilkLedger-arm64-v8a.apk
-F8F1611980A4D3B6536C6BD1A84F07175082BFB19E7F5402AF5C4C410DA9F2F9
+MilkLedger-1.1.1-arm64-v8a.apk
+5A44DBEF6560E32EDF0609C8F173AC2CE8A87439F9455EE30B8B81C3774FAFEA
 
-MilkLedger-armeabi-v7a.apk
-EC10911C3B39C8FC99F04E78EE0920626FD57951FF08ECA8F7A062A70AC7157D
+MilkLedger-1.1.1-armeabi-v7a.apk
+8F2A2EEFBE884192FA4DD7BD19A35F3F9D8010B6C637BFDE719C77E206D0C82E
 
-MilkLedger-x86_64.apk
-54731D8E75751DBD155520B44FE3BE13766D22C21A8DDBD16B764CC5DC5E5FDC
+MilkLedger-1.1.1-x86_64.apk
+3FC8E7C81A48E91FB7238A33837E2E48A598E23A8F635299A3A533AB9A5A75E3
 ```
 
 </details>
 
-Build date: **10 November 2026** · Built with Flutter and Firebase.
+Build date: **13 November 2026** · Built with Flutter and Firebase.
 
 <br>
 
