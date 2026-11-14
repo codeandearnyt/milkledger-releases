@@ -116,9 +116,8 @@
 |---|---|
 | ![Download or share the PDF](assets/screens/pdf-ready.png) | ![Sellers](assets/screens/sellers.png) |
 
-> The top row is from **1.1.2**: the bar is `Home · Ledger | + | Bill · More`, and
-> Reports opens from **More → Reports** as a pushed screen. The other screens were
-> captured on **1.1.1**, where the bar still had a Reports tab.
+> All screenshots are from **1.1.2**: the bar is `Home · Ledger | + | Bill · More`,
+> and Reports opens from **More → Reports** as a pushed screen.
 
 ---
 
